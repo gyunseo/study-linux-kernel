@@ -1,3 +1,7 @@
+ccflags-y = -Og -g
+CFLAGS_interval_tree.o += -O2
+CFLAGS_mmap.o += -O2
+CFLAGS_page_alloc.o += -Og -g -fvar-tracking-assignments
 #
 # Makefile for the linux memory manager.
 #
