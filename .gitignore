@@ -118,3 +118,8 @@ compile_commands.json
 
 # build*.log
 build*.log
+
+# python3 venv dependencies
+bin/*
+lib/*
+lib64
